@@ -1,6 +1,6 @@
 require 'pry'
 
-def find_min_in_nested_arrays2(src)
+def find_min_in_nested_arrays(src)
   minimum_temps = []
   row_index = 0
   while row_index < src.count do
